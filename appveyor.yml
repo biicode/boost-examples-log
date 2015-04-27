@@ -3,7 +3,27 @@ version: 1.0.{build}
 environment:
   matrix:
     - generator: "MinGW Makefiles"
+      boost_track: "master"
+    - generator: "MinGW Makefiles"
+      boost_track: "1.58.0"
+    - generator: "MinGW Makefiles"
+      boost_track: "1.57.0"
+    - generator: "MinGW Makefiles"
+      boost_track: "1.56.0"
+    - generator: "MinGW Makefiles"
+      boost_track: "1.55.0"
+
     - generator: "Visual Studio 12"
+      boost_track: "master"
+    - generator: "Visual Studio 12"
+      boost_track: "1.58.0"
+    - generator: "Visual Studio 12"
+      boost_track: "1.57.0"
+    - generator: "Visual Studio 12"
+      boost_track: "1.56.0"
+    - generator: "Visual Studio 12"
+      boost_track: "1.55.0"
+
 
     - boost_track: "master"
     - boost_track: "1.58.0"
